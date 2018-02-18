@@ -1,0 +1,398 @@
+body{font-family: RBNo2;
+	font-weight:bold;
+	background:url(../img/Bg.jpg) no-repeat;
+	background-size:cover;
+width: 100%;
+max-height:5534px;
+
+overflow-x: hidden;}
+
+
+
+
+header{width: 1614gpx;
+height: 376px;
+	
+}
+nav{
+	margin:auto;
+width:800px;
+height:150px;}
+
+a{text-decoration: none;
+
+color:  #090a0a;
+font-size: 24px;/* Приближение из-за подстановки шрифтов */
+font-weight: 
+line-height: 14px;/* Приближение из-за подстановки шрифтов */
+text-align: center;}
+
+.topnav{display: flex;
+	flex-wrap:wrap;
+margin-top:70px;
+justify-content: center;
+width:100%;}
+
+.topnav a{color: #000;
+	text-align:center;
+	padding: 30px 16px;
+	font-size: 25px;
+	
+}
+
+.topnav a:nth-child(2){margin-left: 10px;}
+
+.logo{
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top:-100px;}
+
+
+ .left{
+ margin-right:auto}
+  .right{
+  	margin-left:auto;
+  	margin-top:00px;}
+.icon{display: none;}
+
+a:hover{border-bottom:2px solid lightgray;}
+
+main:first-of-type{margin-top:150px;
+font-family: Calibri;
+color:  #fdfdfb;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+
+/* Встроенный стиль */
+font-family: Calibri;
+color:  #010101;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;}
+
+.content{
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+
+}
+.content .sometext p{font-family: Cambria;
+color:  #010101;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;}
+.content .sometext2 p{font-family: Cambria;
+color:  #010101;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;}
+
+.column1 p{text-transform:none!important;}
+
+.column1 {
+display:flex;
+flex-direction:column;
+justify-content: flex-start;
+}
+.column2 p{text-transform:none!important;}
+.column2{margin-left: 5px;
+display:flex;
+flex-direction:column;
+justify-content: flex-start;}
+.column3 p {text-transform:none!important;}
+.column3{
+display:flex;
+flex-direction:column;
+justify-content: flex-start;}
+
+.content h2{
+font-family: Calibri;
+
+
+
+
+text-align: left!important;
+
+/* Встроенный стиль */
+
+color:  #010101;
+font-size: 16px;
+font-weight: 600;
+line-height: 10px;
+
+text-transform: uppercase;}
+
+.content p{font-family: Calibri;
+
+
+/* Встроенный стиль */
+font-family: Calibri;
+color:  #010202;
+font-size: 14px;
+font-weight: 550;
+line-height: 20px;
+text-align: left;
+
+
+
+}
+
+.container{display: flex;
+justify-content:center;}
+
+.container>div+div p{font-family: TrajanPro;
+color:  #030303;
+font-size: 12px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+text-transform: uppercase;}
+
+.container>div{margin-right: 20px;}
+.container>div+div+div{margin-left: 20px;}
+
+.aside-link{display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+width:100%;}
+
+.aside-link>div>h2{font-family: Calibri;
+
+
+/* Встроенный стиль */
+font-family: Calibri;
+color:  #030303;
+text-transform:uppercase;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+font-size: 16px;
+}
+.aside-link>div p{font-family: Calibri;
+color:  #030303;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+}
+.aside-link>div+div{margin-left: 50px;}
+
+.aside-link>div+div>h2{font-family: Calibri;
+color:  #545555;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+}
+.aside-link>div+div>li {list-style-image:url(../img/3.png); }
+
+.aside-link>div+div>li> a{font-family: Calibri;
+color:  #545555;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+text-align: justify;
+
+/* Встроенный стиль */
+font-family: Calibri;
+color:  #545555;
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;}
+
+.footer{display: flex;
+	
+	margin:auto;
+	border-top:0.3px solid grey;
+height:200px;
+width:50%;
+
+}
+
+
+.paragraph{  
+	line-height: 80px;
+flex-wrap: wrap;
+}
+.icons{  flex-direction: row;
+justify-content:flex-end;
+line-height: 120px;
+}
+.icons a img:hover{background:blue;
+border-radius: 50%;
+}
+.icons a{border:none;}
+
+@media  screen and (max-width:840px){
+
+
+	.topnav a {
+		display:none;
+	}
+
+	main{margin-top: 180px;
+		
+		}
+
+	.logo 	img{width:40%;
+		position: absolute;
+		top:10px;
+		left:10px;}
+
+		body{font-family: RBNo2;
+	font-weight:bold;
+	background:url(../img/Bg.jpg) no-repeat;
+	background-size:cover;
+width: 100%;
+max-height:3650px;}
+
+
+.topnav{height: 500px;
+}
+	.topnav a {
+		display:none;
+	}
+	.topnav a.icon{
+		position: absolute;
+		right:0px;
+		top:10px;
+		display:block;
+		color:black;
+	}
+	.topnav.responsive{
+	
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;	
+			
+			align-items: flex-end;
+height: 300px;
+margin-top: 70px;
+
+		}
+		.topnav.responsive a.icon{
+			position: absolute;
+			right:0;
+			top:10px;
+					}
+	.topnav.responsive a{
+		
+		
+	display: block;
+	
+		
+		height: 0px
+
+
+	}
+	.right{margin-top: 0px;
+		margin-right:auto;
+		 }
+	.left{margin-top:30px;
+		margin-left:auto;}
+	
+	.content{
+		}
+			.footer{display: flex;
+	
+	margin:auto;
+	border-top:0.3px solid grey;
+height:200px;
+width:80%;
+}
+.topnav a:nth-child(2){margin-left: 0px;}
+}
+
+	@media  screen and (max-width:640px){
+
+.logo img{
+	position:absolute;
+top:10px;
+left:10px;
+width:200px;
+height:200px;}
+	.topnav{height: 500px;
+}
+	.topnav a {
+		display:none;
+	}
+	.topnav a.icon{
+		position: absolute;
+		right:0px;
+		top:10px;
+		display:block;
+		color:black;
+	}
+	.topnav.responsive{
+	
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;	
+			
+			align-items: flex-end;
+height: 300px;
+margin-top: 70px;
+margin-left: -100px;
+
+		}
+		.topnav.responsive a.icon{
+			position: absolute;
+			right:0;
+			top:10px;
+					}
+	.topnav.responsive a{
+		
+		
+	display: block;
+	
+		
+		height: 0px
+
+
+	}
+	.right{margin-top: 0px;
+		margin-right: auto;
+		 }
+	.left{margin-top:30px;
+		margin-left:auto;}
+	
+	.content{
+		}
+
+.allever{margin-top: 100px}
+		body{font-family: RBNo2;
+	font-weight:bold;
+	background:url(../img/Bg.jpg) no-repeat;
+	background-size:cover;
+width: 100%;
+max-height:5650px;}
+	.footer{display: flex;
+	
+	margin:auto;
+	border-top:0.3px solid grey;
+height:200px;
+width:80%;
+}
+
+
+@media  screen and (max-width:480px){
+	.footer{display: flex;
+
+	margin:auto;
+	border-top:0.3px solid grey;
+height:200px;
+width:80%;
+}
+
+}
